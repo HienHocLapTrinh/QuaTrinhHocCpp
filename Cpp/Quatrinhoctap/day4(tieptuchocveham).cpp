@@ -127,7 +127,7 @@ int main(){
         }else if(a<sobimat){
             cout<<"sai roi,con so bi mat lon hon!\n";
         }else{
-            cout<<sobimat<<" là đúng rồi đó thằng ngu!"<<endl;
+            cout<<sobimat<<" là đúng rồi.Chuc mung ban!"<<endl;
         }
     } while (a!=sobimat);
     
