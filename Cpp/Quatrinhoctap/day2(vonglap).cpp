@@ -89,14 +89,14 @@ ve hinh chu nhat
 // }
 
 int main(){
-    int n;
-    cin>>n;
+    int n=10;
     for(int i=1;i<=n;i++){
         for(int a=1;a<=n;a++){
             if(i==1||i==n||a==1||a==n){
-                cout<<"*";
+                cout<<"_";
             }else cout<<" ";
         } cout<<endl;
     } 
+    system("pause");
     return 0;
 }
