@@ -3,6 +3,9 @@
 #include <conio.h>
 #include "thuvien.h"
 using namespace std;
+
+extern int sl; // Declare sl as external if defined elsewhere
+
 // ve khung
 void khung_tren(){
     int x=10, y=1;
@@ -13,7 +16,7 @@ void khung_tren(){
     }
 }
 void khung_duoi(){
-    int x=10, y=29;
+    int x=10, y=26;
     while (x<=100){
     gotoXY(x,y);
     cout<<"+";
@@ -23,7 +26,7 @@ void khung_duoi(){
 
 void khung_trai(){
     int x=10, y=1;
-    while (y<30){
+    while (y<=26){
     gotoXY(x,y);
     cout<<"+";
     y++;
@@ -32,7 +35,7 @@ void khung_trai(){
 
 void khung_phai(){
     int x=100, y=1;
-    while (y<30){
+    while (y<=26){
     gotoXY(x,y);
     cout<<"+";
     y++;
@@ -40,10 +43,12 @@ void khung_phai(){
 }
 
 void khung(){
+    SetColor(11);
     khung_tren();
     khung_duoi();
     khung_trai();
     khung_phai();
+    SetColor(7);
 }
 
-// ham dieu khien vat the
+// ham khoi tao ran
