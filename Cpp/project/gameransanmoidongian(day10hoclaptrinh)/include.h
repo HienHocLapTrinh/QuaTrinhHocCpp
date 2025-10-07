@@ -1,5 +1,8 @@
 #pragma once
-#include <bits/stdc++.h>
+#include <iostream>
+#include <iomanip>
+#include <cstdio>
+#include <cstdlib>
 #include <conio.h>
 #include "thuvien.h"
 using namespace std;

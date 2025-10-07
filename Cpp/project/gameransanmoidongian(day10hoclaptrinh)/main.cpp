@@ -127,7 +127,6 @@ void xu_ly_ran(int toadox[],int toadoy[],int x,int y,int &xdiem,int &ydiem ){
         xoa_phan_tu_cuoi_mang(toadoy,sl-1);
     } else{
         tao_diem(xdiem,ydiem,toadox,toadoy);
-        sl++;
     }
     // ve ran
     ve_ran(toadox,toadoy);
